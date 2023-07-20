@@ -6,6 +6,7 @@ import Managment from './Managment';
 import Reviews from './Reviews';
 import Service from './Service';
 import Steps from './Steps';
+import Header from './Header';
 
 
 export {
@@ -18,4 +19,5 @@ export {
   Service,
   Steps,
   Footer,
+  Header,
 };

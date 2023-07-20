@@ -1,9 +1,21 @@
-import React from 'react'
+import styles from "../styles";
+import "../styles/globals.css";
+import { Header } from "../components";
+import { headerSpa, headerMain } from "../constants";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <>
+    {
+            headerMain.map((feature, index) =>(
+              <Header
+              key={feature.title}
+              {...feature}
+              />
+            ))
+          }
+    </>
+  );
+};
 
-export default Hero
+export default Hero;

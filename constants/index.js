@@ -58,4 +58,18 @@ export const pricelist = [
     {
         
     }
-]
+];
+export const headerMain = [
+    {
+        imgUrl:'/hero.svg',
+        title:'Ubrzajte  proces naručivanja! ',
+        desc:'Web stranicama dodajemo funkcionalnosti online naručivanja, transformirajte svoje poslovanje i neka ono radi za vas!',
+    }
+];
+export const headerSpa = [
+    {
+        imgUrl:'/headerSpa.png',
+        title:'Spa & Wellness ',
+        desc:'Web stranicama dodajemo funkcionalnosti online naručivanja. Pridružite se 100+ zadovoljnih korisnika.',
+    }
+];
